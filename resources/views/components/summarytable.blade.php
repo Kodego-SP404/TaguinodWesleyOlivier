@@ -3,7 +3,7 @@
         <table class="w-96 mx-auto text-sm text-left text-gray-500" id="StudentReports">
             <thead class="text-xs text gray-700 uppercase bg-gray-50">
                 <tr>
-                    <th scope="col" class="py-3 px-6">Column</th>
+                    <th scope="col" class="py-3 px-6"> </th>
                     <th scope="col" class="py-3 px-6">Summary</th>
                 </tr>
             </thead>

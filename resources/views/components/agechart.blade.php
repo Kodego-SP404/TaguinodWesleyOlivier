@@ -1,4 +1,4 @@
-<div class="shadow-lg rounded-lg overflow-hidden bg-white">
+<div class="shadow-lg rounded-lg overflow-hidden bg-white bg-opacity-80">
     <div class="py-3 px-5 bg-gray-50">Student Age Bar Chart</div>
     <canvas class="p-10" id="chartBar"></canvas>
   </div>
