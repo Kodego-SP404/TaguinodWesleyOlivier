@@ -1,4 +1,7 @@
 @include('partials.header')
+<?php $array = array('title' => 'Student System') ;?>
+<x-nav :data="$array"/>
+
 <!-- Required chart.js -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     
