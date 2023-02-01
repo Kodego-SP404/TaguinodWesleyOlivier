@@ -6,6 +6,7 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use App\Models\Students;
 use Illuminate\Http\Request;
+use Illuminate\Pagination\Paginator;
 
 class FilterController extends Controller
 {
@@ -26,8 +27,8 @@ class FilterController extends Controller
         $students->where('age', $request->age);
     }
 
-    $students = $students->simplePaginate(20);
+    $students = $students->simplePaginate(15);
     
     return view('students\index', compact('students'));
 }
-}
+} 
