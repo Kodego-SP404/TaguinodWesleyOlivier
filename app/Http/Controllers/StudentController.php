@@ -15,7 +15,7 @@ class StudentController extends Controller
     public function index() 
     {
         
-        $data = array("students" => DB::table('students')->orderBy('created_at', 'desc')->simplePaginate(15));
+        $data = array("students" => DB::table('students')->orderBy('created_at', 'desc')->simplepaginate(15));
         
         return view('students.index', $data);
     }
@@ -69,7 +69,4 @@ class StudentController extends Controller
     return view('students\reports')->with('students', $students);
 }
 
-
-
-
-  }
+}
