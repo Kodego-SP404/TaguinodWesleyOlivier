@@ -5,7 +5,7 @@
 
 <header class="max-w-lg mx-auto mt-5">
    <a href="#">
-      <h1 class="text-4xl font-bold text-white text-center">Student List</h1>
+      <h1 class="text-4xl font-bold text-white text-center pt-7">Student List - Testing</h1>
    </a>
 </header>
 
@@ -38,6 +38,9 @@
                   Age
                </th>
                <th scope="col" class="py-3 px-6" onclick="sortTable(4)">
+                  Gender
+               </th>
+               <th scope="col" class="py-3 px-6" onclick="sortTable(4)">
                   Action
                </th>
             </tr>
@@ -57,6 +60,9 @@
                </td>
                <td class="py-4 px-6">
                   {{ $student-> age }}
+               </td>
+               <td class="py-4 px-6">
+                  {{ $student-> gender }}
                </td>   
                <td class="py-4 px-6">
                   <a href="/student/{{$student->id}}" class="bg-sky-600 text-white px-4 py-1 rounded">view</a>
@@ -65,13 +71,12 @@
             @endforeach
          </tbody>
       </table>
-      <div class="mx-auto max-w-lg pt-6 p-4 flex justify-between">
+      <div class="mx-auto max-w-lg pt-6 p-4">
          {{$students->links()}}
       </div>
    </div>
 </section>
 
 <x-sort />
-
 @include('partials.footer')
 

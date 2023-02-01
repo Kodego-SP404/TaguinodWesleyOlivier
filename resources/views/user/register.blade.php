@@ -1,22 +1,13 @@
 @include('partials.header')
-
- <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-  <button  type="button" class="inline-block px-6 py-2.5 bg-purple-600 hover:bg-purple-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"> <a href="login">Log In</a> </button>
-</div>
-
-
    <header class="max-w-lg mx-auto">
-      
       <a href="#">
          <h1 class="text-4xl font-bold text-white text-center"> Student Registration</h1>
       </a>
    </header>
-   
    <main class="bg-white max-w-lg mx-auto p-8 my-10 rounded-lg shadow-2xl">
       <section>
-         <h3 class="font-bold text-2xl text-center">Welcome to Student System</h3>
-         
-             
+         <h3 class="font-bold text-2xl text-center text-gray-800">Welcome to Student System</h3>
+             <p class="text-gray-600 pt-2">Sign in to your account <a href="/login" class="text-purple-300 font-bold">here</a> </p>           
       </section>
 
       <section class="mt-10">
