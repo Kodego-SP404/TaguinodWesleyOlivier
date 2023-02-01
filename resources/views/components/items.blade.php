@@ -8,7 +8,10 @@
          @csrf
          <button class="block py-2 pr-4 pl-3">Logout</a>
          </form>
-      </li>    
+      </li> 
+      <li>
+         <p class="flex py-2 pr-4 pl-3"><i class="fa-regular fa-user mr-2 mt-1.5"></i> Hello, {{ Auth::user()->name }}!</p>
+      </li>   
  
    @else
           
