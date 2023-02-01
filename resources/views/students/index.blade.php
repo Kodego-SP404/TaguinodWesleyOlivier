@@ -74,8 +74,8 @@
 
    </div>
 </section>
-<section class="flex">
-   <div class="mt-5 mx-auto max-w-lg pt-6 p-4 text-white">
+<section class="flex items-stretch">
+   <div class="mt-5 mx-auto max-w-lg pt-6 p-4 text-white content-">
       {{$students->links()}}
    </div>
 </section>

@@ -28,7 +28,7 @@ class AppServiceProvider extends ServiceProvider
     {
         //
         View::share('title', 'Student Admin');
-        Paginator::useBootstrap();
+        // Paginator::useBootstrap();
 
         // View::composer('students.index', function($view) {
         //     $view->with('students', Students::all());
