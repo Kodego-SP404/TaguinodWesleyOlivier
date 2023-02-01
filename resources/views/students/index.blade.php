@@ -11,14 +11,16 @@
 
  
 <section class="mt-10">
-   <div class="overflow-x-auto relative">
-      <form action="{{ route('student-list') }}" method="GET">
+   <div class=" overflow-x-auto relative">
+      <div class="flex justify-center my-5 py-5">
+         <form action="{{ route('student-list') }}" method="GET">
          <input type="text" name="first_name" placeholder="First Name">
          <input type="text" name="last_name" placeholder="Last Name">
          <input type="text" name="email" placeholder="Email">
          <input type="text" name="age" placeholder="Age">
          <button type="submit" class="">Filter</button>
-      </form>
+      </form></div>
+      
       <table class="w-96 mx-auto text-sm text-left text-gray-500" id="StudentList">
          <thead class="text-xs text gray-700 uppercase bg-gray-50">
             <tr>
