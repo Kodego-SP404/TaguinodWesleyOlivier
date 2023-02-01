@@ -8,6 +8,7 @@
       <h1 class="text-4xl font-bold text-white text-center">Student List - Testing</h1>
    </a>
 </header>
+
  
 <section class="mt-10">
    <div class="overflow-x-auto relative">
@@ -16,7 +17,7 @@
          <input type="text" name="last_name" placeholder="Last Name">
          <input type="text" name="email" placeholder="Email">
          <input type="text" name="age" placeholder="Age">
-         <button type="submit">Filter</button>
+         <button type="submit" class="">Filter</button>
       </form>
       <table class="w-96 mx-auto text-sm text-left text-gray-500" id="StudentList">
          <thead class="text-xs text gray-700 uppercase bg-gray-50">

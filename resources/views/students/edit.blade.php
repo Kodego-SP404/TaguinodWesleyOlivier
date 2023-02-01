@@ -5,13 +5,13 @@
 
 <header class="mt-5 max-w-lg mx-auto">
    <a href="#">
-      <h1 class="text-4xl font-bold text-white text-center"> Edit {{$student->first_name }} {{$student->last_name }}</h1>
+      <h1 class="text-4xl pt-5 font-bold text-white text-center"> Edit {{$student->first_name }} {{$student->last_name }}</h1>
    </a>
 </header>
-<main class="bg-white max-w-lg mx-auto p-8 my-10 rounded-lg shadow-2xl">
+<main class="bg-white max-w-lg mx-auto p-8 my-5 rounded-lg shadow-2xl">
 
 
-   <section class="mt-10">
+   <section class="my-5">
 
       <form action="/student/{{$student->id}}" method="POST" class="flex flex-col">
          
