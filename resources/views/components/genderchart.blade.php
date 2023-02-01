@@ -1,5 +1,5 @@
-<div class="shadow-lg rounded-lg overflow-hidden bg-white text-black">
-    <div class="py-3 px-5 bg-gray-50">Pie chart</div>
+<div class="shadow-lg rounded-lg overflow-hidden bg-white text-black bg-opacity-80">
+    <div class="py-3 px-5 bg-gray-50">Student Gender Pie chart</div>
     <canvas class="p-10" id="chartPie"></canvas>
   </div>
   <!-- Required chart.js -->

@@ -1,7 +1,7 @@
 
     <section>
         <div class="overflow-x-auto relative">
-            <table class="w-96 mx-auto text-sm text-left text-gray-500" id="StudentReports">
+            <table class="w-96 mx-auto text-sm text-center text-gray-500" id="StudentReports">
                 <thead class="text-xs text gray-700 uppercase bg-gray-50">
                     <tr>
                         <th scope="col" class="py-3 px-6">Gender</th>
@@ -20,4 +20,4 @@
             </table>
         </div>
 
-    </section>    
+    </section>
