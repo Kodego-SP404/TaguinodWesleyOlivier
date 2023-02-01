@@ -1,4 +1,4 @@
-<div class="shadow-lg rounded-lg overflow-hidden mt-10 bg-white text-black">
+<div class="shadow-lg rounded-lg overflow-hidden bg-white text-black">
     <div class="py-3 px-5 bg-gray-50">Pie chart</div>
     <canvas class="p-10" id="chartPie"></canvas>
   </div>
