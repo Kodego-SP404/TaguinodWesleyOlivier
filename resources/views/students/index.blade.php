@@ -19,9 +19,10 @@
          <input type="text" name="email" placeholder="Email">
          <input type="text" name="age" placeholder="Age">
          <button type="submit" class="inline-block px-6 py-2 bg-purple-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-purple-700 hover:shadow-lg focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Filter</button>
-      </form></div>
+         </form>
+      </div>
       
-      <table class="py-5 w-96 mx-auto text-sm text-left text-gray-500" id="StudentList">
+      <table class="w-96 mx-auto text-sm text-left text-gray-500" id="StudentList">
          <thead class="text-xs text gray-700 uppercase bg-gray-50">
             <tr>
                <th scope="col" class="py-3 px-6" onclick="sortTable(0)">
