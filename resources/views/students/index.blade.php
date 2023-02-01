@@ -70,7 +70,7 @@
             @endforeach
          </tbody>
       </table>
-      <div class="mx-auto max-w-lg pt-6 p-4">
+      <div class="mt-5 mx-auto max-w-lg pt-6 p-4">
          {{$students->links()}}
       </div>
    </div>
