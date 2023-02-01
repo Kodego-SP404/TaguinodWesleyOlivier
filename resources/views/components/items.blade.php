@@ -4,6 +4,9 @@
          <a href="/add/student" class="block py-2 pr-4 pl-3">Add New</a>
       </li>
       <li>
+         <a href="/reports" class="block py-2 pr-4 pl-3">Reports</a>
+      </li>
+      <li>
       <form action="/logout" method="POST">
          @csrf
          <button class="block py-2 pr-4 pl-3">Logout</a>
