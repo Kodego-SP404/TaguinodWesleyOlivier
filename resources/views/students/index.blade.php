@@ -71,7 +71,7 @@
             @endforeach
          </tbody>
       </table>
-      <div class="flex mt-5 mx-auto max-w-lg pt-6 p-4 justify-center space-between">
+      <div class="mt-5 mx-auto max-w-lg pt-6 p-4">
          {{$students->links()}}
       </div>
    </div>

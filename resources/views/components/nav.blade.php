@@ -1,5 +1,8 @@
 <nav x-data="{open:false}" class="bg-gray-800 fixed w-full z-20 top-0 left-0 border-gray-200 px-2 sm:px-4 py-2.5 text-white">
    <div class="container flex flex-wrap justify-between items-center">
+      <span class="flex items-center justify-center">
+      <img src="{{asset('assets/png/logo-color.png')}}" alt="" class="h-20">
+      </span>
       <a href="/">
          <span class="self-center text-xl font-semibold whitespace-nowrap">
             {{ $data['title'] }}
