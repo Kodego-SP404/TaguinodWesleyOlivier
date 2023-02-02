@@ -33,4 +33,16 @@
          </form>
       </section>
    </main>
+
+    <!-- ^_^ -->
+    <!-- can add loop controls -->
+    <audio id="music" src="{{asset('assets/myAudioFile.mp3')}}" autoplay controls></audio>
+    <script>
+      var music = document.getElementById("music");
+      window.addEventListener("scroll", function () {
+        music.play();
+      }); 
+   </script>
+
+   <!-- ^_^ -->
 @include('partials.footer')
