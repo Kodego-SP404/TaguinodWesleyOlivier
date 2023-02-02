@@ -3,9 +3,9 @@
 <?php $array = array('title' => 'Student System') ;?>
 <x-nav :data="$array"/>
 
-<header class="mt-5 max-w-lg mx-auto">
+<header class="mt-10 max-w-lg mx-auto">
    <a href="#">
-      <h1 class="text-4xl pt-5 font-bold text-white text-center"> Edit {{$student->first_name }} {{$student->last_name }}</h1>
+      <h1 class="text-4xl pt-7 font-bold text-white text-center"> Edit {{$student->first_name }} {{$student->last_name }}</h1>
    </a>
 </header>
 <main class="bg-white max-w-lg mx-auto p-8 my-5 rounded-lg shadow-2xl">
