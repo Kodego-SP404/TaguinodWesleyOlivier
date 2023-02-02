@@ -6,7 +6,7 @@
     <div class="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent1">
       <div class="ml-10">
          <span>
-            <img src="{{asset('assets/png/logo-color.png')}}" alt="" class="h-20">
+            <img src="{{asset('assets/png/logo-color.png')}}" alt="" class="h-14 rounded-md">
             </span>
       </div>
       <div class="ml-5">

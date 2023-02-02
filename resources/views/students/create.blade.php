@@ -4,8 +4,8 @@
 <?php $array = array('title' => 'Student System') ;?>
 <x-nav :data="$array"/>
 
-<section class="h-screen pt-10"> 
-   <div class="bg-white max-w-3xl mx-auto my-10 p-5 rounded-lg shadow-2xl">  
+<section class="h-full py-10"> 
+   <div class="bg-white max-w-3xl mx-auto my-10 py-10 rounded-lg shadow-2xl">  
       <div class="pb-5 mx-auto">
          <a href="#">
             <h1 class="text-4xl font-bold text-white text-center text-gray-800"> Add New Student</h1>
